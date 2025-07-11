@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hijab Collection - Premium Muslim Fashion</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #faf6f2;
+        }
+        
+        .product-card:hover .product-image {
+            transform: scale(1.03);
+            transition: transform 0.3s ease;
+        }
+        
+        .badge {
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        
+        .search-bar:focus {
+            outline: none;
+            box-shadow: 0 0 0 2px #d1a570;
+        }
+        
+        .buy-button {
+            transition: all 0.3s ease;
+        }
+        
+        .buy-button:hover {
+            background-color: #92400e;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="sticky top-0 z-50 bg-white shadow-sm">
+        <div class="container mx-auto px-4 py-3 flex items-center justify-between">
+            <div class="flex items-center space-x-2">
+                <i class="fas fa-hijab text-2xl text-amber-700"></i>
+                <h1 class="text-xl font-bold text-amber-800">REVANA  COLLECTION</h1>
+            </div>
+            <div class="flex items-center space-x-4">
+                <button class="text-gray-600">
+                    <i class="fas fa-search text-lg"></i>
+        </div>
+    </header>
+
+    <!-- Hero Banner -->
+    <div class="relative bg-gradient-to-r from-amber-100 to-amber-50 py-8 px-4">
+        <div class="container mx-auto flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-6 md:mb-0 text-center">
+                <h2 class="text-3xl font-bold text-amber-900 mb-2">New Collection 2025</h2>
+                <p class="text-amber-800 mb-4">Premium Quality </p>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Products Grid -->
+    <div class="container mx-auto px-4 py-6">
+        <div class="flex items-center justify-between mb-6">
+            <h3 class="text-lg font-semibold text-gray-800">New Arrival Products </h3>
+        </div>
+        
+        <div class="grid grid-cols-2 gap-4">
+            <!-- Product 1 -->
+            <div class="product-card bg-white rounded-lg shadow-sm overflow-hidden">
+                <div class="relative">
+                    <img src="https://down-id.img.susercontent.com/file/id-11134207-7ra0r-mbjldnneqe25f3.webp" alt="Hijab 1" class="w-full h-48 object-cover product-image">
+                    <div class="absolute top-2 right-2 bg-amber-600 text-white text-xs px-2 py-1 rounded-full badge">New</div>
+                </div>
+                <div class="p-3">
+                    <h4 class="text-sm font-medium text-gray-800 mb-1 truncate">Hijab Twin Ribbon</h4>
+                    <div class="flex items-center mb-1">
+                        <div class="flex text-amber-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <span class="text-xs text-gray-500 ml-1">(128)</span>
+                    </div>
+                    <div class="flex items-center justify-between mb-2">
+                        <span class="text-amber-700 font-bold">Rp 145,000</span>
+                        <button class="text-amber-700">
+                            <i class="fas fa-heart"></i>
+                        </button>
+                    </div>
+                    <a href="https://hijabtwinribbon.naomistore.xyz/" class="block w-full bg-amber-700 hover:bg-amber-800 text-white text-center py-2 rounded-md text-sm font-medium buy-button">
+                        Belanja Sekarang
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Product 2 -->
+             <div class="product-card bg-white rounded-lg shadow-sm overflow-hidden">
+                <div class="relative">
+                    <img src="https://down-id.img.susercontent.com/file/id-11134207-7rbk1-mapbh6vg0nj2dd.webp" alt="Hijab 2" class="w-full h-48 object-cover product-image">
+                </div>
+                <div class="p-3">
+                    <h4 class="text-sm font-medium text-gray-800 mb-1 truncate">Pasmina Oval Malay</h4>
+                    <div class="flex items-center mb-1">
+                        <div class="flex text-amber-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <span class="text-xs text-gray-500 ml-1">(95)</span>
+                    </div>
+                    <div class="flex items-center justify-between mb-2">
+                        <span class="text-amber-700 font-bold">Rp 129,000</span>
+                        <button class="text-gray-400">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                    <a href="https://pasminaovalmalay.naomistore.xyz/" class="block w-full bg-amber-700 hover:bg-amber-800 text-white text-center py-2 rounded-md text-sm font-medium buy-button">
+                        Belanja Sekarang
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Product 3 -->
+             <div class="product-card bg-white rounded-lg shadow-sm overflow-hidden">
+                <div class="relative">
+                    <img src="https://cdn.orderonline.id/uploads/images_4964711751889590111.png" alt="Hijab 2" class="w-full h-48 object-cover product-image">
+                </div>
+                <div class="p-3">
+                    <h4 class="text-sm font-medium text-gray-800 mb-1 truncate">Hijab Motif Dirgahayu</h4>
+                    <div class="flex items-center mb-1">
+                        <div class="flex text-amber-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <span class="text-xs text-gray-500 ml-1">(95)</span>
+                    </div>
+                    <div class="flex items-center justify-between mb-2">
+                        <span class="text-amber-700 font-bold">Rp 125,000</span>
+                        <button class="text-gray-400">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                    <a href="https://hijabmotifdirgahyu.naomistore.xyz/" class="block w-full bg-amber-700 hover:bg-amber-800 text-white text-center py-2 rounded-md text-sm font-medium buy-button">
+                        Belanja Sekarang
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Product 4 -->
+             <div class="product-card bg-white rounded-lg shadow-sm overflow-hidden">
+                <div class="relative">
+                    <img src="https://www.thenoors.store/cdn/shop/files/kapkap_20250510222010039_sys.jpg?v=1749448122&width=900" alt="Hijab 2" class="w-full h-48 object-cover product-image">
+                </div>
+                <div class="p-3">
+                    <h4 class="text-sm font-medium text-gray-800 mb-1 truncate">Magnetic Blush Hijab</h4>
+                    <div class="flex items-center mb-1">
+                        <div class="flex text-amber-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <span class="text-xs text-gray-500 ml-1">(95)</span>
+                    </div>
+                    <div class="flex items-center justify-between mb-2">
+                        <span class="text-amber-700 font-bold">Rp 145,000</span>
+                        <button class="text-gray-400">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                    <a href="https://magneticblushhijab.naomistore.xyz" class="block w-full bg-amber-700 hover:bg-amber-800 text-white text-center py-2 rounded-md text-sm font-medium buy-button">
+                        Belanja Sekarang
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Product 5 -->
+             <div class="product-card bg-white rounded-lg shadow-sm overflow-hidden">
+                <div class="relative">
+                    <img src="https://cdn.orderonline.id/uploads/images_5775561752176712402.png" alt="Hijab 2" class="w-full h-48 object-cover product-image">
+                </div>
+                <div class="p-3">
+                    <h4 class="text-sm font-medium text-gray-800 mb-1 truncate">Cadar Ceruty 2 Layer</h4>
+                    <div class="flex items-center mb-1">
+                        <div class="flex text-amber-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <span class="text-xs text-gray-500 ml-1">(95)</span>
+                    </div>
+                    <div class="flex items-center justify-between mb-2">
+                        <span class="text-amber-700 font-bold">Rp 122,000</span>
+                        <button class="text-gray-400">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                    <a href="https://cadarcerutylayer.naomistore.xyz/" class="block w-full bg-amber-700 hover:bg-amber-800 text-white text-center py-2 rounded-md text-sm font-medium buy-button">
+                        Belanja Sekarang
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Product 6 -->
+             <div class="product-card bg-white rounded-lg shadow-sm overflow-hidden">
+                <div class="relative">
+                    <img src="https://cdn.orderonline.id/uploads/images_3760001751395978422.png" alt="Hijab 2" class="w-full h-48 object-cover product-image">
+                </div>
+                <div class="p-3">
+                    <h4 class="text-sm font-medium text-gray-800 mb-1 truncate">Half Moon Handbag
+</h4>
+                    <div class="flex items-center mb-1">
+                        <div class="flex text-amber-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <span class="text-xs text-gray-500 ml-1">(95)</span>
+                    </div>
+                    <div class="flex items-center justify-between mb-2">
+                        <span class="text-amber-700 font-bold">Rp 175,000</span>
+                        <button class="text-gray-400">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                    <a href="https://halfmoonhandbag.naomistore.xyz/" class="block w-full bg-amber-700 hover:bg-amber-800 text-white text-center py-2 rounded-md text-sm font-medium buy-button">
+                        Belanja Sekarang
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Product 7 -->
+             <div class="product-card bg-white rounded-lg shadow-sm overflow-hidden">
+                <div class="relative">
+                    <img src="https://cdn.orderonline.id/uploads/images_8164571751358124450.png" alt="Hijab 2" class="w-full h-48 object-cover product-image">
+                </div>
+                <div class="p-3">
+                    <h4 class="text-sm font-medium text-gray-800 mb-1 truncate">Bag Crossbody Outdoor</h4>
+                    <div class="flex items-center mb-1">
+                        <div class="flex text-amber-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <span class="text-xs text-gray-500 ml-1">(95)</span>
+                    </div>
+                    <div class="flex items-center justify-between mb-2">
+                        <span class="text-amber-700 font-bold">Rp 195,000</span>
+                        <button class="text-gray-400">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                    <a href="https://bagcrossbodyoutdoor.naomistore.xyz" class="block w-full bg-amber-700 hover:bg-amber-800 text-white text-center py-2 rounded-md text-sm font-medium buy-button">
+                        Belanja Sekarang
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Product 8 -->
+             <div class="product-card bg-white rounded-lg shadow-sm overflow-hidden">
+                <div class="relative">
+                    <img src="https://ae01.alicdn.com/kf/H83398b6588f84f87a468269b8d3983cc0.jpg" alt="Hijab 2" class="w-full h-48 object-cover product-image">
+                </div>
+                <div class="p-3">
+                    <h4 class="text-sm font-medium text-gray-800 mb-1 truncate">Foldable Storage Box</h4>
+                    <div class="flex items-center mb-1">
+                        <div class="flex text-amber-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <span class="text-xs text-gray-500 ml-1">(95)</span>
+                    </div>
+                    <div class="flex items-center justify-between mb-2">
+                        <span class="text-amber-700 font-bold">Rp 199,000</span>
+                        <button class="text-gray-400">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                    <a href="https://foldablestoragebox.naomistore.xyz" class="block w-full bg-amber-700 hover:bg-amber-800 text-white text-center py-2 rounded-md text-sm font-medium buy-button">
+                        Belanja Sekarang
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Product 9 -->
+             <div class="product-card bg-white rounded-lg shadow-sm overflow-hidden">
+                <div class="relative">
+                    <img src="https://cdn.orderonline.id/uploads/images_5800961751367683269.png" alt="Hijab 2" class="w-full h-48 object-cover product-image">
+                </div>
+                <div class="p-3">
+                    <h4 class="text-sm font-medium text-gray-800 mb-1 truncate">Wingalery Bra</h4>
+                    <div class="flex items-center mb-1">
+                        <div class="flex text-amber-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <span class="text-xs text-gray-500 ml-1">(95)</span>
+                    </div>
+                    <div class="flex items-center justify-between mb-2">
+                        <span class="text-amber-700 font-bold">Rp 195,000</span>
+                        <button class="text-gray-400">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                    <a href="https://wingalerybra.naomistore.xyz/" class="block w-full bg-amber-700 hover:bg-amber-800 text-white text-center py-2 rounded-md text-sm font-medium buy-button">
+                        Belanja Sekarang
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Product 10 -->
+             <div class="product-card bg-white rounded-lg shadow-sm overflow-hidden">
+                <div class="relative">
+                    <img src="https://cbu01.alicdn.com/img/ibank/O1CN01B3u41r2KZ7HEEiGEi_!!2216621019570-0-cib.jpg" alt="Hijab 2" class="w-full h-48 object-cover product-image">
+                </div>
+                <div class="p-3">
+                    <h4 class="text-sm font-medium text-gray-800 mb-1 truncate">Sexy Lingerie Transparent</h4>
+                    <div class="flex items-center mb-1">
+                        <div class="flex text-amber-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <span class="text-xs text-gray-500 ml-1">(95)</span>
+                    </div>
+                    <div class="flex items-center justify-between mb-2">
+                        <span class="text-amber-700 font-bold">Rp 215,000</span>
+                        <button class="text-gray-400">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                    <a href="https://lingerietransparent.naomistore.xyz" class="block w-full bg-amber-700 hover:bg-amber-800 text-white text-center py-2 rounded-md text-sm font-medium buy-button">
+                        Belanja Sekarang
+                    </a>
+                </div>
+            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bottom Navigation -->
+    <div class="fixed bottom-0 left-0 right-0 bg-white shadow-lg md:hidden">
+        <div class="flex justify-around items-center py-3">
+            <a href="#" class="flex flex-col items-center text-amber-700">
+                <i class="fas fa-home text-lg"></i>
+                <span class="text-xs mt-1">Home</span>
+            </a>
+    <script>
+        // Simple script to toggle favorite button
+        document.querySelectorAll('.product-card button').forEach(button => {
+            button.addEventListener('click', function() {
+                if (this.innerHTML.includes('far fa-heart')) {
+                    this.innerHTML = '<i class="fas fa-heart text-amber-700"></i>';
+                } else {
+                    this.innerHTML = '<i class="far fa-heart"></i>';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
